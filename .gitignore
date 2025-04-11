@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Data & models (optional to include these)
+data/models/
+data/raw_csvs/
+data/processed_csvs/target_outcomes_master.csv
+
+# Logs
+outputs/logs/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# PyTorch or model files
+*.pt
+*.pth
+
+# Cache
+*.cache
+*.pkl
+*.joblib
+*.npy
